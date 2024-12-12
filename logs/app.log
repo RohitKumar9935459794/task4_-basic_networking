@@ -1,0 +1,9 @@
+
+### **5. Run the Script**
+Once you have set up everything:
+1. **Activate the Virtual Environment:**
+   ```bash
+   venv\Scripts\activate  # Windows
+   # or
+   source venv/bin/activate  # MacOS/Linux
+.basicConfig(filename='logs/app.log', level=logging.INFO, format='%(asctime)s - %(message)s')
